@@ -1,8 +1,10 @@
 Default configurations for various things
 
-Last updated Oct 06, 2021 @ 2304 by me
+Last updated Oct 25, 2021 @ 2250 by me
 
 Current configurations:
-- .vimrc
-- TVNamer.json
+- .vimrc                        - VIM tutorial configuration
+- TVNamer.json                  - Configuration for TVNamer
+- gatekeeper.sh                 - Allow installation from outside Apple Store
+- 04-pihole-static-dhcp.conf    - DHCP Configurations
 - More to come
