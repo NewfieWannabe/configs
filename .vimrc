@@ -54,14 +54,15 @@ call plug#begin()
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-fugitive'
     Plug 'vim-airline/vim-airline'
+        let g:airline_experimental = 1  " Enable experimental flags for Airline
     "Plug 'ctrlpvim/ctrlp.vim'
     Plug 'mileszs/ack.vim'
     Plug 'easymotion/vim-easymotion'
-    let g:plug_timeout = 300    " Increase vim-plug timeout for YouCompleteMe.
-    "Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+        let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
+    Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
     "Plug 'sjl/gundo.vim'
     Plug 'frazrepo/vim-rainbow'
-    let g:rainbow_active = 1    " Enable rainbow brackets
+        let g:rainbow_active = 1        " Enable rainbow brackets
     call plug#end()
 " }}}
 
