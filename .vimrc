@@ -54,7 +54,7 @@ call plug#begin()
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-fugitive'
     Plug 'vim-airline/vim-airline'
-    let g:airline_experimental = 1  " Enable experimental flags for Airline
+    "let g:airline_experimental = 1  " Enable experimental flags for Airline
     "Plug 'ctrlpvim/ctrlp.vim'
     Plug 'mileszs/ack.vim'
     Plug 'easymotion/vim-easymotion'
