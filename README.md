@@ -7,4 +7,5 @@ Current configurations:
 - TVNamer.json                  - Configuration for TVNamer
 - gatekeeper.sh                 - Allow installation from outside Apple Store
 - 04-pihole-static-dhcp.conf    - DHCP Configurations
+- update-nodered                - Update NodeRed script for Raspberry Pi
 - More to come
