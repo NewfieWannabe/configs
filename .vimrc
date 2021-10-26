@@ -51,7 +51,7 @@ call plug#begin()
     Plug 'tpope/vim-vinegar'
     Plug 'tpope/vim-unimpaired'
     Plug 'tpope/vim-sensible'
-    "Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-surround'
     Plug 'tpope/vim-fugitive'
     "Plug 'ctrlpvim/ctrlp.vim'
     Plug 'mileszs/ack.vim'
