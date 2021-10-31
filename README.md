@@ -4,8 +4,6 @@
 
 ### Current configurations:
 * .vimrc                        - VIM tutorial configuration
-* .zprofile                     - ZSH Profile for Mac
-* .profile                      - BASH Profile for RPI
 * TVNamer.json                  - Configuration for TVNamer
 * gatekeeper.sh                 - Allow installation from outside Apple Store
 * 04-pihole-static-dhcp.conf    - DHCP Configurations
