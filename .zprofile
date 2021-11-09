@@ -10,7 +10,7 @@ alias la='ls -laGFh'
 alias ll='ls -lGFh'
 
 # vim Aliases
-alias vi='/usr/local/bin/vi'
+alias vi='vim'
 
 # grep Alias
 alias grep='grep --color=auto'
