@@ -1,5 +1,5 @@
 " Marc St-Pierre's Learning .vimrc file
-" Last modified 211026-1750
+" Last modified 211110-1514
 
 " Colours {{{
 syntax on                       " Enable syntax highlighting
@@ -51,12 +51,12 @@ call plug#begin()
     Plug 'tpope/vim-vinegar'
     Plug 'tpope/vim-unimpaired'
     Plug 'tpope/vim-sensible'
+    Plug 'easymotion/vim-easymotion'
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-fugitive'
-    Plug 'vim-airline/vim-airline'
+    "Plug 'vim-airline/vim-airline'
     "Plug 'ctrlpvim/ctrlp.vim'
-    Plug 'mileszs/ack.vim'
-    Plug 'easymotion/vim-easymotion'
+    "Plug 'mileszs/ack.vim'
     let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
     "Plug 'sjl/gundo.vim'
