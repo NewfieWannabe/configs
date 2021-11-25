@@ -1,5 +1,5 @@
 "Marc St-Pierre's Learning .vimrc file
-" Last modified 211110-1514
+" Last modified 211119-2050
 
 " Colours {{{
 syntax on                       " Enable syntax highlighting
@@ -15,7 +15,7 @@ set tabstop=4                   " Number of spaces a tab is counted for
 set softtabstop=4               " Number of spaces a tab is counted for in editing
 set shiftwidth=4                " Number of spaces to use for autoindent
 set foldmethod=indent           " For folding / hiding parts of your code
-"set clipboard=unnamed           " Allow VIM to use unnamed (*) register for copy-paste
+set clipboard=unnamed           " Allow VIM to use unnamed (*) register for copy-paste
 " }}}
 
 " UI Configurations {{{
@@ -26,6 +26,7 @@ set wildmenu                    " Visual autocomplete for command line
 set laststatus=2                " Always show a status bar
 set backspace=2                 " Fix backspace behaviour on most terminals
 "set clipboard=unnamedplus       " Set clipboard to copy-paste from outside VIM
+set tags=tags;                  " Allow tag file recursively
 " }}}
 
 " Search Configurations {{{
@@ -63,6 +64,7 @@ call plug#begin()
     "Plug 'frazrepo/vim-rainbow'
     "let g:rainbow_active = 1        " Enable rainbow brackets
 call plug#end()
+
 " }}}
 
 " Window Movement {{{
