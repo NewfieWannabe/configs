@@ -9,8 +9,8 @@ alias ls='ls -GFh'
 alias la='ls -laGFh'
 alias ll='ls -lGFh'
 
-# vim Aliases
-alias vi='vim'
+# vim Alias - Use vim built from git source
+alias vi='/usr/local/bin/vim'
 
 # grep Alias
 alias grep='grep --color=auto'
@@ -23,4 +23,5 @@ alias buu='brew update && brew upgrade'
 
 # Other application Aliases
 alias tvnamer='tvnamer --always --recursive --selectfirst'
+alias htop='sudo htop'
 
