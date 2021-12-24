@@ -7,9 +7,11 @@
 * .zprofile                     - ZSH Mac ZProfile
 * .profile                      - BASH Profile for RPi
 * TVNamer.json                  - Configuration for TVNamer
-* gatekeeper.sh                 - Allow installation from outside Apple Store
 * 04-pihole-static-dhcp.conf    - DHCP Configurations
 * settings.js                   - Node-RED configuration
+* 
+* gatekeeper.sh                 - Allow installation from outside Apple Store
+* kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
 * 
 * More to come
 
