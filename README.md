@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-## Last updated Nov 23, 2021 @ 1949 by me
+## Last updated Dec 24, 2021 @ 1241 by me
 
 ### Current configurations:
 * .vimrc                        - VIM tutorial configuration
