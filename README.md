@@ -4,8 +4,9 @@
 
 ### Current configurations:
 * .vimrc                        - VIM tutorial configuration
-* .zprofile                     - ZSH Mac ZProfile
+* .zprofile                     - ZSH Profile for Mac
 * .profile                      - BASH Profile for RPi
+* 
 * TVNamer.json                  - Configuration for TVNamer
 * 04-pihole-static-dhcp.conf    - DHCP Configurations
 * settings.js                   - Node-RED configuration
