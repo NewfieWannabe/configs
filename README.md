@@ -8,7 +8,7 @@
 * .profile                      - BASH Profile for RPi
 * 
 * TVNamer.json                  - Configuration for TVNamer
-* 04-pihole-static-dhcp.conf    - DHCP Configurations
+* 04-pihole-static-dhcp.conf    - DHCP Reservations
 * settings.js                   - Node-RED configuration
 * 
 * gatekeeper.sh                 - Allow installation from outside Apple Store
