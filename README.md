@@ -3,7 +3,7 @@
 ## Last updated Jan 16 2022 @ 1103 by me
 
 ## Current configurations:
-a
+
 #### Profiles 
 * .zprofile                     - ZSH Profile for Apple computers
 * .profile                      - BASH Profile for Raspberry Pi computers
