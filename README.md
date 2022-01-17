@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated Jan 16 2022 @ 1103 by me
+#### Last updated Jan 17 2022 @ 0635 by me
 
 ## Current configurations:
 
@@ -13,7 +13,6 @@
 * TVNamer.json                  - Configuration for TVNamer
 * settings.js                   - Configuration for Node-RED 
 * log2ram.conf                  - Configuration for Log2RAM for SDCard / SSD saving
-* 04-pihole-static-dhcp.conf    - DHCP Reservations
 
 #### Mac scripts
 * gatekeeper.sh                 - Allow installation from outside Apple Store
