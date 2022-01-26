@@ -28,4 +28,5 @@ fi
 
 
 # Aliases
-alias   vi=vim      # Use VIM 8.2 built from git
+alias   vi='vim'        # Use VIM 8.2 built from git
+alias   sudo='sudo '    # Pass aliases to sudo
