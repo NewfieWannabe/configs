@@ -1,4 +1,4 @@
-"Marc St-Pierre's Learning .vimrc file
+" Marc St-Pierre's Learning .vimrc file
 " Last modified 211119-2050
 
 " Colours {{{
