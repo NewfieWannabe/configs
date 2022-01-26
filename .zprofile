@@ -24,6 +24,7 @@ alias buu='brew update && brew upgrade'
 # Other application Aliases
 alias tvnamer='tvnamer --always --recursive --selectfirst'
 alias htop='sudo htop'
-alias sudo='sudo ' # Allow Sudo to pass aliases
+alias sudo='sudo '      # Allow sudo to pass aliases
+alias git='git '        # Allow git to ass aliases
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
