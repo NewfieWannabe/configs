@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated Jan 25 2022 @ 0031 by me
+#### Last updated Jan 31 2022 @ 1050 by me
 
 ## Current configurations:
 
@@ -12,7 +12,7 @@
 * .vimrc                        - VIM tutorial configuration
 * TVNamer.json                  - Configuration for TVNamer
 * settings.js                   - Configuration for Node-RED 
-* log2ram.conf                  - Configuration for Log2RAM for SDCard / SSD saving
+* log2ram.conf                  - Configuration for Log2RAM for SDCard saving
 
 #### Mac scripts                
 * gatekeeper.sh                 - Allow installation from outside Apple Store
