@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated Jan 31 2022 @ 1050 by me
+#### Last updated Feb 16 2022 @ 1224 by me
 
 ## Current configurations:
 
@@ -10,6 +10,7 @@
 
 #### Configuration files        
 * .vimrc                        - VIM tutorial configuration
+* .zshrc                        - ZShell colour prompt for Apple computers
 * TVNamer.json                  - Configuration for TVNamer
 * settings.js                   - Configuration for Node-RED 
 * log2ram.conf                  - Configuration for Log2RAM for SDCard saving
