@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated Feb 16 2022 @ 1224 by me
+#### Last updated Feb 28 2022 @ 1542 by me
 
 ## Current configurations:
 
@@ -23,6 +23,7 @@
 * vim.build.m1                  - Vim build script - M1 Mac
 * vim.build.intel               - Vim build script - Intel Mac
 * vim.build.pi                  - Vim build script - Raspberry Pi
+* vim.build.wsl			- Vim build script - WSL VM on Windows 11
  
 #### More to come...
 
