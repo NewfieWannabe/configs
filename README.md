@@ -15,13 +15,13 @@
 * settings.js                   - Configuration for Node-RED 
 * log2ram.conf                  - Configuration for Log2RAM for SDCard saving
 
+### Scripts
 #### Mac scripts                
 * gatekeeper.sh                 - Allow installation from outside Apple Store
 * kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
- 
 #### VIM Build Scripts          
-* vim.build.m1                  - Vim build script - M1 Mac
 * vim.build.intel               - Vim build script - Intel Mac
+* vim.build.m1                  - Vim build script - M1 Mac
 * vim.build.pi                  - Vim build script - Raspberry Pi
 * vim.build.wsl			- Vim build script - WSL VM on Windows 11
  
