@@ -1,21 +1,21 @@
 # Default configurations for various things
 
-#### Last updated Feb 28 2022 @ 1542 by me
+#### Last updated Mar 02 2022 @ 1324 by me
 
 ## Current configurations:
 
-#### Profiles                   
+#### .files                   
 * .zprofile                     - ZSH Profile for Apple computers
 * .profile                      - BASH Profile for Raspberry Pi computers
-
-#### Configuration files        
 * .vimrc                        - VIM tutorial configuration
 * .zshrc                        - ZShell colour prompt for Apple computers
+
+#### Configuration files        -  /conf
 * TVNamer.json                  - Configuration for TVNamer
 * settings.js                   - Configuration for Node-RED 
 * log2ram.conf                  - Configuration for Log2RAM for SDCard saving
 
-### Scripts
+### Scripts                     - /scripts
 #### Mac scripts                
 * gatekeeper.sh                 - Allow installation from outside Apple Store
 * kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
