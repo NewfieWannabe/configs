@@ -9,7 +9,7 @@ cd /usr/local/src/vim
 git pull
 
 # Configure
-sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/usr/lib/python3.8/config-3.8-x86_64-linux-gnu
+sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/usr/lib/python3.9/config-3.9-x86_64-linux-gnu
 
 # Make and Make Install
 sudo make -j2
