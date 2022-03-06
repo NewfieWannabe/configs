@@ -1,12 +1,13 @@
 # Default configurations for various things
 
-#### Last updated Mar 03 2022 @ 1341 by me
+#### Last updated Mar 06 2022 @ 1802 by me
 
 ## Current configurations:
 
 #### .files                     - /
 * .zprofile                     - ZSH Profile for Apple computers
 * .profile                      - BASH Profile for Raspberry Pi computers
+* .bashrc                       - BASH Configurationfor Pi / WSL
 * .vimrc                        - VIM tutorial configuration
 * .zshrc                        - ZShell colour prompt for Apple computers
 
