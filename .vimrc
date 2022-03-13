@@ -1,5 +1,5 @@
-" Marc St-Pierre's Learning .vimrc file
-" Last modified 220206-2027
+"Marc St-Pierre's Learning .vimrc file
+" Last modified 220313-1511
 
 " Colours {{{
 syntax on                       " Enable syntax highlighting
@@ -26,11 +26,7 @@ set wildmenu                    " Visual autocomplete for command line
 set laststatus=2                " Always show a status bar
 set backspace=2                 " Fix backspace behaviour on most terminals
 "set clipboard=unnamedplus       " Set clipboard to copy-paste from outside VIM
-
-" Tags
 set tags=tags;                  " Allow tag file recursively
-" Regenerate tags when saving files
-autocmd BufWritePost *.py,*.h,*.cpp,*.php,*.xml silent! !ctags -R &
 " }}}
 
 " Search Configurations {{{
@@ -62,8 +58,8 @@ call plug#begin()
     "Plug 'vim-airline/vim-airline'
     "Plug 'ctrlpvim/ctrlp.vim'
     "Plug 'mileszs/ack.vim'
-    let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
-    Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+    "let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
+    "Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
     Plug 'sjl/gundo.vim'
     "Plug 'frazrepo/vim-rainbow'
     "let g:rainbow_active = 1        " Enable rainbow brackets
