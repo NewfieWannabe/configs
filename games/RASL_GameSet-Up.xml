@@ -117,12 +117,15 @@
 
 
 	<RASL_TechnologiesStatus>
-		<Row Finish="true" TechnologyType="TECH_POTTERY" AIMajPlayer="false" EraType="ERA_ANCIENT"  />
-		<Row Finish="true" TechnologyType="TECH_MINING" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_IRRIGATION" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_ANIMAL_HUSBANDRY" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_ASTROLOGY" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_SHIPBUILDING" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_POTTERY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT"  />
+		<Row TechnologyType="TECH_MINING" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_MASONRY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_CONSTRUCTION" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_IRRIGATION" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_ANIMAL_HUSBANDRY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_ASTROLOGY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<!--Row TechnologyType="TECH_SHIPBUILDING" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" /-->
+		<!--Row TechnologyType="TECH_CELESTIAL_NAVIGATION" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" /-->
 	</RASL_TechnologiesStatus>
 </GameInfo>
 
