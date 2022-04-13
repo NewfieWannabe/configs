@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated Mar 09 2022 @ 1316 by me
+#### Last updated Apr 13 2022 @ 1109 by me
 
 ## Current configurations:
 
@@ -25,6 +25,10 @@
 * vim.build.m1                  - Vim build script - M1 Mac
 * vim.build.pi                  - Vim build script - Raspberry Pi
 * vim.build.wsl			- Vim build script - WSL VM on Windows 11
+
+### Fun & Games                 - /games
+#### Game Files
+* RASL_GameSet-up.xml           - Setup file for Civ6 Really Advanced Setup (Lite)
  
 #### More to come...
 

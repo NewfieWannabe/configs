@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/11/2016 8:05:12 PM -->
+
+
+<!--
+	DATA FOR COLUMNS SHARED IN ALL THE TABLES
+
+	EraType
+		always specifies the selected game starting era to apply the effects to
+		if omitted defaults to "ERA_ANCIENT" in all cases
+	AIMajPlayer
+		specifies whether to apply the effect to Ai Major players
+		effects are never applied to city-states
+		"false" means apply it only to a human player
+		if omitted the default is "false" in all cases
+	CivilizationType
+		specifies a specific civilization to apply the affects to
+		you can state both CIVILIZATION_X and that the effect only apply to a human as the examples for Rome do
+		when you omit CivilizationType then the affect will be applied to any player that meets the condition set for AIMajPlayer
+
+-->
+
+<GameInfo>
+		<!-- ===================================================================================
+		================================ Extra Starting Units ==================================
+		========================================================================================
+
+		NOTES:
+		1)	If you give the same UnitType more than once for the same era, player, etc.,
+			only the top (first) one will be used.
+
+		========================================================================================
+		======================================================================================== -->
+
+	<RASL_Units>
+		<Row UnitType="UNIT_SCOUT" NumberExtraUnits="3" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_BUILDER" NumberExtraUnits="3" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_SETTLER" NumberExtraUnits="2" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_SPEARMAN" NumberExtraUnits="3" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
+	</RASL_Units>
+
+		<!-- ===================================================================================
+		=============================== Extra Starting Yields ==================================
+		========================================================================================
+
+		NOTES:
+		1)	If you give the same YieldType more than once for the same era, player, etc.,
+			only the bottom (last) one will be used.
+		2)	"YIELD_CULTURE" can be stated in this table but generally should not be.
+			a)	when stated, "YIELD_CULTURE" StartingExtraValue should be a integer
+				# of culture points toward completion of the 1st civic available at
+				game start
+		3)	"YIELD_SCIENCE" should not be used in this table: the code ignores it
+		4)	All StartingExtraValues stated will be automatically adjusted for selected game
+			speed, so make entries based on Standard Game Speed
+		5)	"YIELD_GOLD" values cannot be higher than 200,000 gold. Any Value for StartingExtraValue for
+			YieldType="YIELD_GOLD" wil be capped at StartingExtraValue="200000" regardless of player
+			selected gamespeed. This is necessary since too high a number actually results in a negative
+			treasury amount.
+		6)	"YIELD_FAITH" values cannot be higher than 15,000 faith. Any Value for StartingExtraValue for
+			YieldType="YIELD_FAITH" wil be capped at StartingExtraValue="15000" regardless of player
+			selected gamespeed.
+
+		========================================================================================
+		======================================================================================== -->
+
+
+	<RASL_Yields>
+		<Row YieldType="YIELD_GOLD" StartingExtraValue="100000" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
+		<Row YieldType="YIELD_FAITH" StartingExtraValue="2500" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+	</RASL_Yields>
+
+
+		<!-- ===================================================================================
+		=================================== Starting Civics ====================================
+		========================================================================================
+
+		NOTES:
+		1)	If you give the same CivicType more than once, only the top (first) one will be used.
+		2)	Value will be the % toward completion of the Civic.
+			a)	Value of '0' will be ignored: Value of 100+ will be treated as Finish="true"
+		3)	Finish="true" will cause the Civic to be completed on game starting.
+		4)	if any civic is set to complete on game loading, then "CIVIC_CODE_OF_LAWS" will also be finished.
+			a)	this is to eliminate odd behaviors on policy card selections.
+		5)	you should state either Finish="true" or Value="X" but never both.
+		6)	you do NOT state civics you do not want to give or semi-complete: there is no need to do so.
+
+		========================================================================================
+		======================================================================================== -->
+
+
+	<RASL_CivicsStatus>
+		<Row CivicType="CIVIC_CRAFTSMANSHIP" Finish="true"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_MILITARY_TRADITION" Finish="true"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_FOREIGN_TRADE" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+        <ROW CivicType="CIVIC_STATE_WORKFORCE" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+        <ROW CivicType="CIVIC_EARLY_EMPIRE" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+	</RASL_CivicsStatus>
+
+
+
+		<!-- ===================================================================================
+		================================== Starting Techs ======================================
+		========================================================================================
+
+		NOTES:
+		1)	If you give the same TechnologyType more than once, only the top (first) one will be used.
+		2)	Value will be the % toward completion of the Tech.
+			a)	Value of '0' will be ignored: Value of 100+ will be treated as Finish="true"
+		3)	Finish="true" will cause the Tech to be completed on game starting.
+		4)	you should state either Finish="true" or Value="X" but never both.
+		5)	you do NOT state techs you do not want to give or semi-complete: there is no need to do so.
+
+
+		========================================================================================
+		======================================================================================== -->
+
+
+	<RASL_TechnologiesStatus>
+		<Row Finish="true" TechnologyType="TECH_POTTERY" AIMajPlayer="false" EraType="ERA_ANCIENT"  />
+		<Row Finish="true" TechnologyType="TECH_MINING" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row Finish="true" TechnologyType="TECH_IRRIGATION" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row Finish="true" TechnologyType="TECH_ANIMAL_HUSBANDRY" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row Finish="true" TechnologyType="TECH_ASTROLOGY" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row Finish="true" TechnologyType="TECH_SHIPBUILDING" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+	</RASL_TechnologiesStatus>
+</GameInfo>
+
