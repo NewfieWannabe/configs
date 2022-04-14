@@ -90,11 +90,9 @@
 
 
 	<RASL_CivicsStatus>
-		<Row CivicType="CIVIC_CRAFTSMANSHIP" Finish="true"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row CivicType="CIVIC_MILITARY_TRADITION" Finish="true"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row CivicType="CIVIC_FOREIGN_TRADE" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-        <ROW CivicType="CIVIC_STATE_WORKFORCE" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-        <ROW CivicType="CIVIC_EARLY_EMPIRE" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_CRAFTSMANSHIP" Value="100"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_MILITARY_TRADITION" Value="100"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_FOREIGN_TRADE" Value="100" AIMajPlayer="false" EraType="ERA_ANCIENT" />
 	</RASL_CivicsStatus>
 
 
@@ -117,12 +115,15 @@
 
 
 	<RASL_TechnologiesStatus>
-		<Row Finish="true" TechnologyType="TECH_POTTERY" AIMajPlayer="false" EraType="ERA_ANCIENT"  />
-		<Row Finish="true" TechnologyType="TECH_MINING" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_IRRIGATION" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_ANIMAL_HUSBANDRY" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_ASTROLOGY" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row Finish="true" TechnologyType="TECH_SHIPBUILDING" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_POTTERY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT"  />
+		<Row TechnologyType="TECH_MINING" Finish="true"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_IRRIGATION" Value="100"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_ANIMAL_HUSBANDRY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_ASTROLOGY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+        <Row TechnologyType="TECH_CONSTRUCTION" FINISH="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
 	</RASL_TechnologiesStatus>
 </GameInfo>
+
+
+
 
