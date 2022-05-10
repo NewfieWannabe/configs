@@ -1,0 +1,14 @@
+# Update and Build DevilutionX from Source
+# Updated 23 April 2022 @ 1112
+
+# Update the source
+cd /usr/local/src/devilutionx
+git pull
+
+# Build
+brew bundle install
+cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j $(sysctl -n hw.physicalcpu)
+
+# Move the final product to the Games folder
+cp -r /usr/local/src/devilutionx/build/devilutionx.app /Users/marc/Applications/
