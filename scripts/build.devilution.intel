@@ -7,7 +7,7 @@ git pull
 
 # Build
 brew bundle install
-cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release
+cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Debug
 cmake --build build -j $(sysctl -n hw.physicalcpu)
 
 # Move the final product to the Games folder
