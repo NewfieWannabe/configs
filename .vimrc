@@ -1,5 +1,5 @@
-" Marc St-Pierre's Learning .vimrc file
-" Last modified 220313-1511
+"Marc St-Pierre's Learning .vimrc file
+" Last modified 220618-2302
 
 " Colours {{{
 syntax on                       " Enable syntax highlighting
@@ -58,8 +58,8 @@ call plug#begin()
     "Plug 'vim-airline/vim-airline'
     "Plug 'ctrlpvim/ctrlp.vim'
     "Plug 'mileszs/ack.vim'
-    "let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
-    "Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+    let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
+    Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
     Plug 'sjl/gundo.vim'
     "Plug 'frazrepo/vim-rainbow'
     "let g:rainbow_active = 1        " Enable rainbow brackets
