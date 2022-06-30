@@ -7,10 +7,14 @@ cd /usr/local/src/vim
 # Get latest build
 git pull
 
-# Configure
-sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/opt/homebrew/Cellar/python\@3.10/3.10.4/Frameworks/Python.framework/Versions/3.10/lib/python3.10/config-3.10-darwin
+# Configure - pyenv version
+# sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/Users/Marc/.pyenv/versions/3.10.4/lib/python3.10/config-3.10-darwin
+
+# Configure - Brew version
+sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes --enable-fail-if-missing --with-python3-config-dir=/opt/homebrew/Cellar/python@3.10/3.10.5/Frameworks/Python.framework/Versions/3.10/lib/python3.10/config-3.10-darwin
 
 # Make and Make Install
 sudo make -j2
 sudo make -j4 install
+
 
