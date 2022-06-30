@@ -1,5 +1,5 @@
 # Update and Build DevilutionX from Source
-# Updated 23 April 2022 @ 1112
+# Updated 30 June 2022 @ 1709
 
 # Update the source
 cd /usr/local/src/devilutionx
@@ -11,4 +11,4 @@ cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Debug
 cmake --build build -j $(sysctl -n hw.physicalcpu)
 
 # Move the final product to the Games folder
-cp -r /usr/local/src/devilutionx/build/devilutionx.app /Users/marc/Applications/
+cp -r /usr/local/src/devilutionx/build/devilutionx.app /Applications/Battle.net/DevilutionX/
