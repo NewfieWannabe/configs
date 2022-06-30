@@ -67,7 +67,7 @@
 
 	<RASL_Yields>
 		<Row YieldType="YIELD_GOLD" StartingExtraValue="100000" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
-		<Row YieldType="YIELD_FAITH" StartingExtraValue="2500" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row YieldType="YIELD_FAITH" StartingExtraValue="5000" AIMajPlayer="false" EraType="ERA_ANCIENT" />
 	</RASL_Yields>
 
 
@@ -120,7 +120,6 @@
 		<Row TechnologyType="TECH_IRRIGATION" Value="100"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
 		<Row TechnologyType="TECH_ANIMAL_HUSBANDRY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
 		<Row TechnologyType="TECH_ASTROLOGY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-        <Row TechnologyType="TECH_CONSTRUCTION" FINISH="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
 	</RASL_TechnologiesStatus>
 </GameInfo>
 
