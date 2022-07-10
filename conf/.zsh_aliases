@@ -1,0 +1,26 @@
+# ZSH Aliases
+# Updated 220710 1340
+
+
+## LS Aliases
+alias ls='ls -GFh'
+alias la='ls -laGFh'
+alias ll='ls -lGFh'
+
+## vim Alias - Use vim built from git source
+alias vi='/usr/local/bin/vim'
+
+## grep Alias
+alias grep='grep --color=auto'
+
+## tldr Alias
+alias man='tldr'
+
+## Homebrew Aliases
+alias buu='brew update && brew upgrade'
+
+## Other application Aliases
+alias tvnamer='tvnamer --always --recursive --selectfirst'
+alias htop='sudo htop'
+alias sudo='sudo '      # Allow sudo to pass aliases
+alias git='git '        # Allow git to pass aliases
