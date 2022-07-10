@@ -93,6 +93,9 @@ alias la='ls -lAGFh'
 #alias l='ls -CF'
 alias vi='vim'
 alias sudo='sudo '
+# Docker remove all containers
+alias RMAC='docker container rm -f $(docker container ls -aq)'
+alias RMAI='docker rmi $(docker images -aq)'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -113,3 +116,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
