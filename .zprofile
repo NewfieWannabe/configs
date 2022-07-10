@@ -1,30 +1,16 @@
-# Bash Profile Hacks
+# ZSH Profile Hacks
+# Last updated July 10 2022 @ 1340
 
 #export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
-# LS Aliases
-alias ls='ls -GFh'
-alias la='ls -laGFh'
-alias ll='ls -lGFh'
+# Colour prompts
+color_prompt=yes
 
-# vim Alias - Use vim built from git source
-alias vi='/usr/local/bin/vim'
+# Source my aliases
+source ~/.aliases
 
-# grep Alias
-alias grep='grep --color=auto'
-
-# tldr Alias
-alias man='tldr'
-
-# Homebrew Aliases
-alias buu='brew update && brew upgrade'
-
-# Other application Aliases
-alias tvnamer='tvnamer --always --recursive --selectfirst'
-alias htop='sudo htop'
-alias sudo='sudo '      # Allow sudo to pass aliases
-alias git='git '        # Allow git to ass aliases
-
+#Confirm Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
