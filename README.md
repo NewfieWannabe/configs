@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated July 10 2022 @ 1345 by me
+#### Last updated July 12 2022 @ 1347 by me
 
 ## Current configurations:
 
@@ -10,7 +10,7 @@
 * .bashrc                       - BASH Configuration for Pi / WSL
 * .vimrc                        - VIM tutorial configuration
 * .zshrc                        - ZShell colour prompt for Apple computers
-* .zsh_aliases                  - ZSH Alaises for Apple computers
+* .aliases                      - Common alaises for my various systems
 
 #### Configuration files        -  /conf
 * TVNamer.json                  - Configuration for TVNamer
