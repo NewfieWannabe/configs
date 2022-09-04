@@ -7,21 +7,24 @@ alias ls='ls -GFh'
 alias la='ls -laGFh'
 alias ll='ls -lGFh'
 
-## vim - Use vim built from git source
+## vim Alias - Use vim built from git source
 alias vi='/usr/local/bin/vim'
 
-## grep 
+## grep Alias
 alias grep='grep --color=auto'
 
-## tldr
+## tldr Alias
 alias man='tldr'
 
-## Other applications
+## Other application Aliases
+alias tvnamer='tvnamer --always --recursive --selectfirst'
+alias animalkingdom='tvnamer --series-id=304262 --always --recursive --selectfirst'
 alias htop='sudo htop'
-alias sudo='sudo '      # Allow sudo to pass arguments
-alias git='git '        # Allow git to pass arguments
+alias sudo='sudo '      # Allow sudo to pass aliases
+alias git='git '        # Allow git to pass aliases
 
 # Mac-Specific Aliases
+## Homebrew Alias
 alias buu='brew update && brew upgrade'
-alias tvnamer='tvnamer --always --recursive --selectfirst'
+## m4btool Alias
 alias m4b-tool='docker run -it --rm -u $(id -u):$(id -g) -v "$(pwd)":/mnt sandreas/m4b-tool:latest'
