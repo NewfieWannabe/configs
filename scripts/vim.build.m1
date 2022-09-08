@@ -11,7 +11,7 @@ git pull
 # sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/Users/Marc/.pyenv/versions/3.10.4/lib/python3.10/config-3.10-darwin
 
 # Configure - Brew version
-sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes --enable-fail-if-missing --with-python3-config-dir=/opt/homebrew/Cellar/python@3.10/3.10.6_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/config-3.10-darwin
+sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes --enable-fail-if-missing --with-python3-config-dir=/opt/homebrew/Cellar/python@3.10/3.10.6_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/config-3.10-darwin
 
 # Make and Make Install
 sudo make -j2
