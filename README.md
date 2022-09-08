@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated July 12 2022 @ 1347 by me
+#### Last updated August 20 2022 @ 1347 by me
 
 ## Current configurations:
 
