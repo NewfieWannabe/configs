@@ -1,5 +1,6 @@
 #!/bin/bash
 # configure script for Vim
+# Last updated 20 Sep 2022 @ 2025
 
 # Change to vim directory
 cd /usr/local/src/vim
@@ -16,6 +17,4 @@ sudo zsh configure --with-features=huge --enable-multibyte --enable-python3inter
 # Make and Make Install
 sudo make -j2
 sudo make -j4 install
-
-
 
