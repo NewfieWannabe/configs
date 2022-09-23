@@ -1,11 +1,11 @@
 # Aliases File for my various devices
-# Updated 220808 1554
+# Updated 22 Sep 2022 @ 2242245
 
 
 ## LS Aliases
-alias ls='ls -GFh'
-alias la='ls -laGFh'
-alias ll='ls -lGFh'
+alias ls='ls -GFh --color=auto'
+alias la='ls -laGFh --color=auto'
+alias ll='ls -lGFh --color=auto'
 
 ## vim Alias - Use vim built from git source
 alias vi='/usr/local/bin/vim'
