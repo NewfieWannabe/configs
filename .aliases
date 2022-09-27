@@ -1,11 +1,10 @@
 # Aliases File for my various devices
-# Updated 22 Sep 2022 @ 2242245
-
+# Updated 26 Sep 2022 1839
 
 ## LS Aliases
-alias ls='ls -GFh --color=auto'
-alias la='ls -laGFh --color=auto'
-alias ll='ls -lGFh --color=auto'
+alias ls='ls -GFh'
+alias la='ls -laGFh'
+alias ll='ls -lGFh'
 
 ## vim Alias - Use vim built from git source
 alias vi='/usr/local/bin/vim'
@@ -18,7 +17,6 @@ alias man='tldr'
 
 ## Other application Aliases
 alias tvnamer='tvnamer --always --recursive --selectfirst'
-alias animalkingdom='tvnamer --series-id=304262 --always --recursive --selectfirst'
 alias htop='sudo htop'
 alias sudo='sudo '      # Allow sudo to pass aliases
 alias git='git '        # Allow git to pass aliases
