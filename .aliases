@@ -2,9 +2,12 @@
 # Updated 26 Sep 2022 1839
 
 ## LS Aliases
-alias ls='ls -GFh'
-alias la='ls -laGFh'
-alias ll='ls -lGFh'
+#alias ls='ls -GFh'
+#alias la='ls -laGFh'
+#alias ll='ls -lGFh'
+alias ls='exa -l --group-directories-first'
+alias la='exa -la'
+alias ll='exa -l'
 
 ## vim Alias - Use vim built from git source
 alias vi='/usr/local/bin/vim'
@@ -16,7 +19,7 @@ alias grep='grep --color=auto'
 alias man='tldr'
 
 ## Other application Aliases
-alias tvnamer='tvnamer --always --recursive --selectfirst'
+alias tvnamer='tvnamer --always --recursive '
 alias htop='sudo htop'
 alias sudo='sudo '      # Allow sudo to pass aliases
 alias git='git '        # Allow git to pass aliases
