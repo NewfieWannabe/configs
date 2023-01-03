@@ -33,10 +33,11 @@
 		======================================================================================== -->
 
 	<RASL_Units>
-		<Row UnitType="UNIT_SCOUT" NumberExtraUnits="3" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
-		<Row UnitType="UNIT_BUILDER" NumberExtraUnits="3" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
-		<Row UnitType="UNIT_SETTLER" NumberExtraUnits="2" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
-		<Row UnitType="UNIT_SPEARMAN" NumberExtraUnits="3" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_SETTLER"	NumberExtraUnits="3"	AIMajPlayer="false"		EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_SCOUT"		NumberExtraUnits="3"	AIMajPlayer="false"		EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_BUILDER"	NumberExtraUnits="3"	AIMajPlayer="false"		EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_SPEARMAN"	NumberExtraUnits="3"	AIMajPlayer="false"		EraType="ERA_ANCIENT"/>
+		<Row UnitType="UNIT_SETTLER"	NumberExtraUnits="2"	AIMajPlayer="false"		EraType="ERA_CLASSICAL"/>
 	</RASL_Units>
 
 		<!-- ===================================================================================
@@ -66,11 +67,12 @@
 
 
 	<RASL_Yields>
-		<Row YieldType="YIELD_GOLD" StartingExtraValue="100000" AIMajPlayer="false" EraType="ERA_ANCIENT"/>
-		<Row YieldType="YIELD_GOLD" StartingExtraValue="100000" AIMajPlayer="false" EraType="ERA_MEDIEVAL"/>
-		<Row YieldType="YIELD_FAITH" StartingExtraValue="5000" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row YieldType="YIELD_FAITH" StartingExtraValue="5000" AIMajPlayer="false" EraType="ERA_CLASSICAL" />
-		<Row YieldType="YIELD_FAITH" StartingExtraValue="5000" AIMajPlayer="false" EraType="ERA_MEDIEVAL" />
+		<Row YieldType="YIELD_GOLD"		StartingExtraValue="100000"		AIMajPlayer="false"		EraType="ERA_ANCIENT"/>
+		<Row YieldType="YIELD_GOLD"		StartingExtraValue="75000"		AIMajPlayer="false"		EraType="ERA_CLASSICAL"/>
+		<Row YieldType="YIELD_GOLD"		StartingExtraValue="75000"		AIMajPlayer="false"		EraType="ERA_MEDIEVAL"/>
+		<Row YieldType="YIELD_FAITH"	StartingExtraValue="10000"		AIMajPlayer="false"		EraType="ERA_ANCIENT" />
+		<Row YieldType="YIELD_FAITH"	StartingExtraValue="5000"		AIMajPlayer="false"		EraType="ERA_CLASSICAL" />
+		<Row YieldType="YIELD_FAITH"	StartingExtraValue="5000"		AIMajPlayer="false"		EraType="ERA_MEDIEVAL" />
 	</RASL_Yields>
 
 
@@ -93,9 +95,11 @@
 
 
 	<RASL_CivicsStatus>
-		<Row CivicType="CIVIC_CRAFTSMANSHIP" Value="100"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row CivicType="CIVIC_MILITARY_TRADITION" Value="100"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row CivicType="CIVIC_FOREIGN_TRADE" Value="100" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_CRAFTSMANSHIP" 		Finish="true"	AIMajPlayer="false"		EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_MILITARY_TRADITION"	Finish="true"	AIMajPlayer="false"		EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_FOREIGN_TRADE"		Finish="true"	AIMajPlayer="false"		EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_STATE_WORKFORCE"		Finish="true"	AIMajPlayer="false"		EraType="ERA_ANCIENT" />
+		<Row CivicType="CIVIC_EARLY_EMPIRE"			Finish="true"	AIMajPlayer="false"		EraType="ERA_ANCIENT" />
 	</RASL_CivicsStatus>
 
 
@@ -118,14 +122,14 @@
 
 
 	<RASL_TechnologiesStatus>
-		<Row TechnologyType="TECH_POTTERY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT"  />
-		<Row TechnologyType="TECH_MINING" Finish="true"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row TechnologyType="TECH_IRRIGATION" Value="100"  AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row TechnologyType="TECH_ANIMAL_HUSBANDRY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
-		<Row TechnologyType="TECH_ASTROLOGY" Finish="true" AIMajPlayer="false" EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_POTTERY" 				Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT"  />
+		<Row TechnologyType="TECH_MINING" 				Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_IRRIGATION" 			Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_ANIMAL_HUSBANDRY" 	Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_ASTROLOGY"			Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_SHIPBUILDING"			Finish="true"	AIMajPlayer="false"		Era_Type="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_WRITING"				Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
 	</RASL_TechnologiesStatus>
 </GameInfo>
-
-
 
 
