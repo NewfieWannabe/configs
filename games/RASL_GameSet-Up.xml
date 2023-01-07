@@ -122,12 +122,12 @@
 
 
 	<RASL_TechnologiesStatus>
-		<Row TechnologyType="TECH_POTTERY" 				Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT"  />
+		<Row TechnologyType="TECH_POTTERY" 				Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
 		<Row TechnologyType="TECH_MINING" 				Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
 		<Row TechnologyType="TECH_IRRIGATION" 			Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
 		<Row TechnologyType="TECH_ANIMAL_HUSBANDRY" 	Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
 		<Row TechnologyType="TECH_ASTROLOGY"			Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
-		<Row TechnologyType="TECH_SHIPBUILDING"			Finish="true"	AIMajPlayer="false"		Era_Type="ERA_ANCIENT" />
+		<Row TechnologyType="TECH_SHIPBUILDING"			Finish="true"	AIMajPlayer="false"		EraType="ERA_ANCIENT" />
 		<Row TechnologyType="TECH_WRITING"				Finish="true"	AIMajPlayer="false" 	EraType="ERA_ANCIENT" />
 	</RASL_TechnologiesStatus>
 </GameInfo>
