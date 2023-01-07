@@ -3,8 +3,8 @@
 
 
 # Brew update
-brew --update
-brew --upgrade
+brew update
+brew upgrade
 
 # TVNamer
 brew install tvnamer
