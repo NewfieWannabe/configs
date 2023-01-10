@@ -9,7 +9,7 @@ cd /usr/local/src/vim
 git pull
 
 # Configure
-sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/config-3.10-darwin
+sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/config-3.10-darwin
 
 # Make and Make Install
 sudo make -j2
