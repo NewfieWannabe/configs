@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated December 7 2022 @ 2054 by me
+#### Last updated 230208-1349
 
 ## Current configurations:
 
@@ -21,6 +21,7 @@
 #### Mac scripts                
 * gatekeeper.sh                 - Allow installation from outside Apple Store
 * kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
+* brews.sh                      - List of Homebrew tools to install
 #### VIM Build Scripts          
 * vim.build.intel               - Vim build script - Intel Mac
 * vim.build.m1                  - Vim build script - M1 Mac
@@ -32,6 +33,7 @@
 * RASL_GameSet-up.xml           - Setup file for Civ6 Really Advanced Setup (Lite)
 * devilutionx.build.m1          - Build script for DevilutionX for M1 Mac
 * devilutionx.build.intel       - Build script for DevilutionX for Intel Mac
+* devilutionx.build.wsl         - Build script for DevilutionX for Intel Mac
  
 #### More to come...
 
