@@ -1,5 +1,5 @@
 # Command to install various brew scripts I use
-# Last updated 18 Nov 2022 0735
+# Last updated 230308-1313
 
 
 # Brew update
@@ -10,7 +10,7 @@ brew upgrade
 brew install tvnamer
 
 # duf
-brew insttall duf
+brew install duf
 
 # htop
 brew install htop
