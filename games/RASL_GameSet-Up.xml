@@ -67,12 +67,8 @@
 
 
 	<RASL_Yields>
-		<Row YieldType="YIELD_GOLD"		StartingExtraValue="100000"		AIMajPlayer="false"		EraType="ERA_ANCIENT"/>
-		<Row YieldType="YIELD_GOLD"		StartingExtraValue="75000"		AIMajPlayer="false"		EraType="ERA_CLASSICAL"/>
-		<Row YieldType="YIELD_GOLD"		StartingExtraValue="75000"		AIMajPlayer="false"		EraType="ERA_MEDIEVAL"/>
-		<Row YieldType="YIELD_FAITH"	StartingExtraValue="10000"		AIMajPlayer="false"		EraType="ERA_ANCIENT" />
-		<Row YieldType="YIELD_FAITH"	StartingExtraValue="5000"		AIMajPlayer="false"		EraType="ERA_CLASSICAL" />
-		<Row YieldType="YIELD_FAITH"	StartingExtraValue="5000"		AIMajPlayer="false"		EraType="ERA_MEDIEVAL" />
+		<Row YieldType="YIELD_GOLD"		StartingExtraValue="150000"		AIMajPlayer="false"		EraType="ERA_ANCIENT"/>
+		<Row YieldType="YIELD_FAITH"	StartingExtraValue="25000"		AIMajPlayer="false"		EraType="ERA_ANCIENT" />
 	</RASL_Yields>
 
 
