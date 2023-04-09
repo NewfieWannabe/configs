@@ -14,7 +14,7 @@ brew install openjdk
 
 # Command-line tools
 brew install cmake
-brew install fing
+brew install fing-cli fing
 brew install tvnamer
 brew install duf
 brew install htop
