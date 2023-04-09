@@ -1,16 +1,16 @@
 # Default configurations for various things
 
-#### Last updated 230208-1349
+#### Last updated 230409-1414
 
 ## Current configurations:
 
 #### .files                     - /
-* .zprofile                     - ZSH Profile for Apple computers
-* .profile                      - BASH Profile for Raspberry Pi computers
-* .bashrc                       - BASH Configuration for Pi / WSL
-* .vimrc                        - VIM tutorial configuration
-* .zshrc                        - ZShell colour prompt for Apple computers
 * .aliases                      - Common alaises for my various systems
+* .bashrc                       - BASH Configuration for Pi / WSL
+* .profile                      - BASH Profile for Raspberry Pi computers
+* .vimrc                        - VIM tutorial configuration
+* .zprofile                     - ZShell Profile for Apple computers
+* .zshrc                        - ZShell colour prompt for Apple computers
 
 #### Configuration files        -  /conf
 * TVNamer.json                  - Configuration for TVNamer
