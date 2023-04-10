@@ -1,5 +1,5 @@
 " Marc St-Pierre's Learning .vimrc file
-" Last modified 230409-1411
+" Last modified 230410-1123
 
 " Colours {{{
 syntax on                       " Enable syntax highlighting
@@ -27,6 +27,7 @@ set laststatus=2                " Always show a status bar
 set backspace=2                 " Fix backspace behaviour on most terminals
 "set clipboard=unnamedplus       " Set clipboard to copy-paste from outside VIM
 set tags=tags;                  " Allow tag file recursively
+set encoding=utf-8
 " }}}
 
 " Search Configurations {{{
@@ -45,6 +46,13 @@ set undodir="$HOME/.vim/undodir"
 " }}}
 
 " Plugin Support {{{
+" Install vim-plug if not already installed
+if empty(glob('~/.vim/autoload/plug.vim'))
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 packloadall                     " Load all plugins in Pack folder
 silent! helptags ALL            " Load all help for plugins silently
 call plug#begin()
@@ -60,7 +68,6 @@ call plug#begin()
     "Plug 'mileszs/ack.vim'
     "let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
-    set encoding=utf-8
     Plug 'sjl/gundo.vim'
     "Plug 'frazrepo/vim-rainbow'
     let g:rainbow_active = 1        " Enable rainbow brackets
