@@ -5,9 +5,9 @@
 #alias ls='ls -GFh'
 #alias la='ls -laGFh'
 #alias ll='ls -lGFh'
-alias ls='exa -l --group-directories-first'
-alias la='exa -la'
-alias ll='exa -l'
+alias ls='eza -l --group-directories-first'
+alias la='eza -la --group-directories-first'
+alias ll='eza -l --group-directories-first'
 
 ## vim Alias - Use vim built from git source
 alias vi='/usr/local/bin/vim'
