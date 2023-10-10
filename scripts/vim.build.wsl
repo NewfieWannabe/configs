@@ -1,6 +1,6 @@
 #!/bin/bash
 # configure script for Vim
-# Last updated 230208-1317
+# Last updated 10 Oct 2023 @ 0943
 
 # Change to vim directory
 cd /usr/local/src/vim
@@ -9,7 +9,7 @@ cd /usr/local/src/vim
 git pull
 
 # Configure
-sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/usr/lib/python3.10/config-3.10-x86_64-linux-gnu
+sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/usr/lib/python3.11/config-3.11-x86_64-linux-gnu
 
 # Make and Make Install
 sudo make -j2
