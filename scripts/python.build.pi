@@ -1,0 +1,14 @@
+# Python 3 Build script for Raspberry Pi
+# Last modified 15 October 2023 @ 1929
+
+# Get latest source
+cd /usr/local/src/python
+git pull
+
+# Configure
+./configure --prefix=/usr/local/python3 --enable-optimizations
+
+# Make & Make install
+make
+sudo make install
+
