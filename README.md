@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated 230409-1414
+#### Last updated 15 October 2023 @ 1932
 
 ## Current configurations:
 
@@ -22,11 +22,13 @@
 * brews.sh                      - List of Homebrew tools to install
 * gatekeeper.sh                 - Allow installation from outside Apple Store
 * kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
-#### VIM Build Scripts          
 * vim.build.intel               - Vim build script - Intel Mac
 * vim.build.m1                  - Vim build script - M1 Mac
+#### Raspberry Pi Scripts          
 * vim.build.pi                  - Vim build script - Raspberry Pi
-* vim.build.wsl			- Vim build script - WSL VM on Windows 11
+* python.build.pi               - Python 3 build script - Raspberry Pi
+#### WSL / Windows Scripts
+* vim.build.wsl			        - Vim build script - WSL VM on Windows 11
 
 ### Fun & Games                 - /games
 #### Game Files
