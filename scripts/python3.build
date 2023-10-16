@@ -2,7 +2,7 @@
 # Last modified 15 October 2023 @ 1929
 
 # Get latest source
-cd /usr/local/src/python
+cd /usr/local/src/python3
 git pull
 
 # Configure
