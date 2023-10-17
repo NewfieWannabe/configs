@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated 15 October 2023 @ 1953
+#### Last updated 16 October 2023 @ 1859
 
 ## Current configurations:
 
@@ -22,6 +22,7 @@
 #### Mac scripts                
 * brews.sh                      - List of Homebrew tools to install
 * gatekeeper.sh                 - Allow installation from outside Apple Store
+* gits.sh                       - Repositories to clone
 * kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
 * vim.build.intel               - Vim build script - Intel Mac
 * vim.build.m1                  - Vim build script - M1 Mac
