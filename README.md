@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated 16 October 2023 @ 1859
+#### Last updated 02 November 2023 @ 1636
 
 ## Current configurations:
 
@@ -27,6 +27,7 @@
 * vim.build.intel               - Vim build script - Intel Mac
 * vim.build.m1                  - Vim build script - M1 Mac
 #### Raspberry Pi Scripts          
+* eza.cmd.pi                    - Eza script to configure and install - Raspberry Pi
 * vim.build.pi                  - Vim build script - Raspberry Pi
 #### WSL / Windows Scripts
 * vim.build.wsl			        - Vim build script - WSL VM on Windows 11
