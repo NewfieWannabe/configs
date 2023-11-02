@@ -22,12 +22,13 @@
 #### Mac scripts                
 * brews.sh                      - List of Homebrew tools to install
 * gatekeeper.sh                 - Allow installation from outside Apple Store
-* gits.mac.sh                   - Repositories to clone on the mac
+* gits.mac.sh                   - Repositories to clone on Mac
 * kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
 * vim.build.intel               - Vim build script - Intel Mac
 * vim.build.m1                  - Vim build script - M1 Mac
 #### Raspberry Pi Scripts          
 * eza.cmd.pi                    - Eza script to configure and install - Raspberry Pi
+* gits.pi.sh                    - Repositories to clone on Raspberry Pi
 * vim.build.pi                  - Vim build script - Raspberry Pi
 #### WSL / Windows Scripts
 * vim.build.wsl			        - Vim build script - WSL VM on Windows 11
