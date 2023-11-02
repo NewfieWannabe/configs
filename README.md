@@ -22,7 +22,7 @@
 #### Mac scripts                
 * brews.sh                      - List of Homebrew tools to install
 * gatekeeper.sh                 - Allow installation from outside Apple Store
-* gits.sh                       - Repositories to clone
+* gits.mac.sh                   - Repositories to clone on the mac
 * kill.adobe.sh                 - Kill / disable all Adobe Creative Cloud processes
 * vim.build.intel               - Vim build script - Intel Mac
 * vim.build.m1                  - Vim build script - M1 Mac
