@@ -18,6 +18,9 @@ alias grep='grep --color=auto'
 ## tldr Alias
 alias man='tldr'
 
+## Fing alias
+alias fing='sudo fing -r 1'
+
 ## Other application Aliases
 alias tvnamer='tvnamer --always --recursive '
 alias htop='sudo htop'
