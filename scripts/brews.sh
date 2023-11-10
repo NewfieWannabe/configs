@@ -7,7 +7,7 @@ brew update
 brew upgrade
 
 # Python
-brew install python@3.10 python@3.11
+brew install python@3.12 python@3.11
 
 # OpenJDK
 brew install openjdk
@@ -15,6 +15,7 @@ brew install openjdk
 # Command-line tools
 brew install cmake
 brew install autoconf
+brew install automake
 brew install libtools
 brew install macfuse
 brew install fing-cli fing
