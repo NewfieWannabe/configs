@@ -14,6 +14,9 @@ brew install openjdk
 
 # Command-line tools
 brew install cmake
+brew install autoconf
+brew install libtools
+brew install macfuse
 brew install fing-cli fing
 brew install tvnamer
 brew install duf
@@ -21,4 +24,3 @@ brew install htop
 brew install eza
 brew install rar
 brew install wget
-
