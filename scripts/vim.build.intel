@@ -1,6 +1,6 @@
 #!/bin/bash
 # configure script for Vim
-# Last updated 18 November 2023 @ 0503
+# Last updated 28 November 2023 @ 1547
 
 # Change to vim directory
 cd /usr/local/src/vim
@@ -8,11 +8,11 @@ cd /usr/local/src/vim
 # Get latest build
 git pull
 
-# Configure
-sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin
+# Configure - Python 3.12
+sudo zsh configure --prefix=/usr/local --with-features=huge --enable-multibyte --enable-python3interp=dynamic --with-python3-command=/usr/local/Cellar/python#3.12/3.12.0/bin/python3.12  --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin
 
 # Configure - Python 3.13
-# sudo zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
+#sudo zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
 
 # Make and Make Install
 sudo make -j2
