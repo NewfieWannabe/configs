@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated 02 November 2023 @ 1636
+#### Last updated 23 December 2023 @ 1220
 
 ## Current configurations:
 
@@ -18,8 +18,8 @@
 * settings.js                   - Configuration for Node-RED 
 
 ### Scripts                     - /scripts
-* python.build                  - Python 3 build script
-#### Mac scripts                
+* python.build                  - Python 3 build script - Platform agnostic
+#### Mac scripts - M1 / Intel
 * brews.sh                      - List of Homebrew tools to install
 * gatekeeper.sh                 - Allow installation from outside Apple Store
 * gits.mac.sh                   - Repositories to clone on Mac
