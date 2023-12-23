@@ -8,3 +8,4 @@ git clone git@github.com:brofield/simpleini             simpleini
 git clone git@github.com:mpartel/bindfs                 bindfs
 git clone git@github.com:eza-community/eza              eza
 git clone https://git.uupdump.net/uup-dump/converter    uupdump
+git clone beeper/mac-registration-provider              beeper-mac
