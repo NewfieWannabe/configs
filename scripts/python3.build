@@ -10,5 +10,5 @@ git pull
 
 # Make & Make install
 make
-sudo make install
+make install
 
