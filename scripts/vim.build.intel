@@ -9,14 +9,14 @@ cd /usr/local/src/vim
 git pull
 
 # Configure - Python 3.12
-sudo zsh configure --prefix=/usr/local --with-features=huge --enable-multibyte --enable-python3interp=dynamic --with-python3-command=/usr/local/Cellar/python@3.12/3.12.0/bin/python3.12  --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin
+zsh configure --prefix=/usr/local --with-features=huge --enable-multibyte --enable-python3interp=dynamic --with-python3-command=/usr/local/Cellar/python@3.12/3.12.1/bin/python3.12  --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.12/3.12.1/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin
 
 # Configure - Python 3.13
-#sudo zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
+#zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
 
 # Make and Make Install
-sudo make -j2
-sudo make -j4 install
+make -j2
+make -j4 install
 
 # Clean up space
-sudo make distclean
+make distclean
