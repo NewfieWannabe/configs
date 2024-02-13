@@ -1,5 +1,5 @@
 # Update and Build DevilutionX from Source
-# Updated 230410-1003
+# Updated 21 January 2024 @ 1136
 
 # Update the source
 cd /usr/local/src/devilutionx
@@ -11,7 +11,8 @@ cmake -S. -Bbuild-m1 -DCMAKE_BUILD_TYPE=Debug
 cmake --build build-m1 -j $(sysctl -n hw.physicalcpu)
 
 # Move the final product to the Games folder
-cp -r /usr/local/src/devilutionx/build-m1/devilutionx.app /Applications/Battle.net/DevilutionX/
+rm -r ~/Applications/DevilutionX/devilutionx.app
+mv -r /usr/local/src/devilutionx/build-m1/devilutionx.app ~/Applications/DevilutionX/
 
 # Clean up for space and delete the build folder
-sudo rm -r build-m1
+rm -rf build-m1
