@@ -11,8 +11,7 @@ cmake -S. -Bbuild-m1 -DCMAKE_BUILD_TYPE=Debug
 cmake --build build-m1 -j $(sysctl -n hw.physicalcpu)
 
 # Move the final product to the Games folder
-rm -r ~/Applications/DevilutionX/devilutionx.app
-mv -r /usr/local/src/devilutionx/build-m1/devilutionx.app ~/Applications/DevilutionX/
+cp -r /usr/local/src/devilutionx/build-m1/devilutionx.app ~/Applications/DevilutionX/
 
 # Clean up for space and delete the build folder
-rm -rf build-m1
+rm -r build-m1

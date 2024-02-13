@@ -1,5 +1,5 @@
 # Update and Build DevilutionX from Source
-# Updated 230410-1004
+# Updated 230208-1320
 
 # Update the source
 cd /usr/local/src/devilutionx
@@ -7,8 +7,12 @@ git pull
 
 # Build
 brew bundle install
-cmake -S. -Bbuild-intel -DCMAKE_BUILD_TYPE=Debug
-cmake --build build-intel -j $(sysctl -n hw.physicalcpu)
+cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Debug
+cmake --build build -j $(sysctl -n hw.physicalcpu)
 
 # Move the final product to the Games folder
-cp -r /usr/local/src/devilutionx/build-intel/devilutionx.app /Users/marc/Applications/
+cp -r /usr/local/src/devilutionx/build/devilutionx.app /Users/marc/Applications/
+
+# Cleanup for space savings
+rm -r build/
+
