@@ -9,7 +9,13 @@ cd /usr/local/src/vim
 git pull
 
 # Configure - Python 3.12
-zsh configure --prefix=/usr/local --with-features=huge --enable-multibyte --enable-python3interp=dynamic --with-python3-command=/usr/local/Cellar/python@3.12/3.12.1/bin/python3.12  --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.12/3.12.1/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin
+zsh configure \
+    --prefix=/usr/local \
+    --with-features=huge \
+    --enable-multibyte \
+    --enable-python3interp=dynamic \
+    --with-python3-command=/usr/local/Cellar/python@3.12/3.12.2/bin/python3.12  \
+    --enable-fail-if-missing --with-python3-config-dir=/usr/local/Cellar/python@3.12/3.12.2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin
 
 # Configure - Python 3.13
 #zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
