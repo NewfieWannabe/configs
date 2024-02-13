@@ -11,14 +11,20 @@ git pull
 # sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --enable-fail-if-missing --with-python3-config-dir=/Users/Marc/.pyenv/versions/3.10.4/lib/python3.10/config-3.10-darwin
 
 # Configure - Brew version
-# sudo zsh configure --with-features=huge --enable-multibyte --enable-python3interp=yes --enable-fail-if-missing --with-python3-config-dir=/opt/homebrew/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin
+zsh configure \
+    --enable-fail-if-missing \
+    --with-features=huge \
+    --enable-multibyte \
+    --enable-python3interp=dynamic \
+    --with-python3-config-dir=/opt/homebrew/Cellar/python@3.12/3.12.2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin \
+        --with-python3-command=/opt/homebrew/Cellar/python@3.12/3.12.2/bin/python3.12
 
 # Configure - Python 3.13 version
-sudo zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
+#zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
 
 # Make and Make Install
-sudo make -j4
-sudo make -j8 install
+make
+make install
 
 # Clean the build directory for space cleanup
-sudo make distclean
+#make distclean
