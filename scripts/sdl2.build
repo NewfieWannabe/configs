@@ -1,0 +1,12 @@
+# Build script for sdl2/3
+
+cd /usr/local/src/sdl2
+git pull
+mkdir build
+
+cd /usr/local/src/sdl2/build
+cmake ..
+cmake --build .
+sudo cmake --install .
+cd /usr/local/src/sdl2
+rm -rf build
