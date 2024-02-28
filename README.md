@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated 23 December 2023 @ 1220
+#### Last updated 28 February 2024 @ 1524
 
 ## Current configurations:
 
@@ -19,6 +19,7 @@
 
 ### Scripts                     - /scripts
 * python.build                  - Python 3 build script - Platform agnostic
+* sdl2.build                    - SDL2/3 build script - Platform agnostic
 #### Mac scripts - M1 / Intel
 * brews.sh                      - List of Homebrew tools to install
 * gatekeeper.sh                 - Allow installation from outside Apple Store
