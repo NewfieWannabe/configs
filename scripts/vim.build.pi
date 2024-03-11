@@ -8,8 +8,14 @@ cd /usr/local/src/vim
 git pull
 
 # Configure
-sudo bash configure --with-features=huge --enable-multibyte --enable-python3interp=yes  --with-python3-config-dir=/usr/lib/python3.9/config-3.9-arm-linux-gnueabihf --enable-fail-if-missing
+bash configure \
+	--with-features=huge \
+	--enable-multibyte \
+	--enable-python3interp=yes \
+	--with-python3-command=/usr/bin/python3 \
+	--with-python3-config-dir=/usr/lib/python3.11/config-3.11-aarch64-linux-gnu \
+	--enable-fail-if-missing
 
 # Make and Make Install
-sudo make -j2
-sudo make -j4 install
+make -j2
+make -j4 install
