@@ -39,7 +39,7 @@
 * RASL_GameSet-up.xml           - Setup file for Civ6 Really Advanced Setup (Lite)
 * devilutionx.build.intel       - Build script for DevilutionX for Intel Mac
 * devilutionx.build.m1          - Build script for DevilutionX for M1 Mac
-* devilutionx.build.wsl         - Build script for DevilutionX for WSL on Windows - Linux not Windows
+* devilutionx.build.wsl         - Build script for DevilutionX for WSL on Windows - Runs Linux executable
  
 #### More to come...
 
