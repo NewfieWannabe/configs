@@ -1,6 +1,6 @@
 # Default configurations for various things
 
-#### Last updated 28 February 2024 @ 1524
+#### Last updated 29 March 2024 @ 0742
 
 ## Current configurations:
 
@@ -39,7 +39,7 @@
 * RASL_GameSet-up.xml           - Setup file for Civ6 Really Advanced Setup (Lite)
 * devilutionx.build.intel       - Build script for DevilutionX for Intel Mac
 * devilutionx.build.m1          - Build script for DevilutionX for M1 Mac
-* devilutionx.build.wsl         - Build script for DevilutionX for Intel Mac
+* devilutionx.build.wsl         - Build script for DevilutionX for WSL on Windows - Linux not Windows
  
 #### More to come...
 
