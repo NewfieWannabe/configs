@@ -1,5 +1,5 @@
 " Marc St-Pierre's Learning .vimrc file
-" Last modified 230410-1123
+" Last modified 10 April 2023 @ 1123
 
 " Colours {{{
 syntax on                       " Enable syntax highlighting
