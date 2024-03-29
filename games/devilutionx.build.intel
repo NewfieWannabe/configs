@@ -1,5 +1,5 @@
 # Update and Build DevilutionX from Source
-# Updated 230208-1320
+# Updated 29 March 2024 @ 0935
 
 # Update the source
 cd /usr/local/src/devilutionx
@@ -14,5 +14,5 @@ cmake --build build -j $(sysctl -n hw.physicalcpu)
 cp -r /usr/local/src/devilutionx/build/devilutionx.app /Users/marc/Applications/
 
 # Cleanup for space savings
-rm -r build/
+rm -rf build/
 
