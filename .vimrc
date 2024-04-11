@@ -1,5 +1,5 @@
 " Marc St-Pierre's Learning .vimrc file
-" Last modified 10 April 2023 @ 1123
+" Last modified 11 April 2024 @ 0430
 
 " Colours {{{
 syntax on                       " Enable syntax highlighting
@@ -47,10 +47,10 @@ set undodir="$HOME/.vim/undodir"
 
 " Plugin Support {{{
 " Install vim-plug if not already installed
-if empty(glob('~/.vim/autoload/plug.vim'))
-    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 packloadall                     " Load all plugins in Pack folder
@@ -67,7 +67,7 @@ call plug#begin()
     "Plug 'ctrlpvim/ctrlp.vim'
     "Plug 'mileszs/ack.vim'
     "let g:plug_timeout = 300        " Increase vim-plug timeout for YouCompleteMe.
-    Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+    "Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
     Plug 'sjl/gundo.vim'
     "Plug 'frazrepo/vim-rainbow'
     let g:rainbow_active = 1        " Enable rainbow brackets
