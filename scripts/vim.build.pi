@@ -11,9 +11,9 @@ git pull
 bash configure \
 	--with-features=huge \
 	--enable-multibyte \
-	--enable-python3interp=yes \
-	--with-python3-command=/usr/bin/python3 \
-	--with-python3-config-dir=/usr/lib/python3.11/config-3.11-aarch64-linux-gnu \
+	--enable-python3interp=dynamic \
+	--with-python3-command=/usr/bin/python3.11 \
+	--with-python3-config-dir=/usr/lib/python3.11/config-3.11-x86_64-linux-gnu \
 	--enable-fail-if-missing
 
 # Make and Make Install
