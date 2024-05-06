@@ -16,15 +16,21 @@ zsh configure \
     --with-features=huge \
     --enable-multibyte \
     --enable-python3interp=dynamic \
-    --with-python3-config-dir=/opt/homebrew/Cellar/python@3.12/3.12.2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin \
-        --with-python3-command=/opt/homebrew/Cellar/python@3.12/3.12.2/bin/python3.12
+    --with-python3-config-dir=/opt/homebrew/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin \
+    --with-python3-command=/opt/homebrew/Cellar/python@3.12/3.12.3/bin/python3.12
 
 # Configure - Python 3.13 version
-#zsh configure --with-features=huge --enable-multibyte --enable-python3interp=dynamic --enable-fail-if-missing --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin --with-python3-command=/usr/local/python3/bin/python3
+#zsh configure \
+#    --with-features=huge \
+#    --enable-multibyte \
+#    --enable-fail-if-missing \
+#    --enable-python3interp=dynamic \
+#    --with-python3-config-dir=/usr/local/python3/lib/python3.13/config-3.13-darwin \
+#    --with-python3-command=/usr/local/python3/bin/python3
 
 # Make and Make Install
 make
 make install
 
 # Clean the build directory for space cleanup
-#make distclean
+make distclean
