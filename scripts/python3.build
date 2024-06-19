@@ -6,7 +6,13 @@ cd /usr/local/src/python3
 git pull
 
 # Configure
-./configure --prefix=/usr/local/python3 --enable-optimizations
+./configure \
+        --prefix=/usr/local/python3 \
+        --with-thread-sanitizer=yes \
+        --with-address-sanitizer=yes \
+        --with-memory-sanitizer=yes \
+        --enable-framework \
+        --enable-optimizations
 
 # Make & Make install
 make
